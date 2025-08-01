@@ -26,6 +26,7 @@ public class AbstractComponents {
 
 	@FindBy(xpath = "//button[@routerlink='/dashboard/cart']")
 	WebElement gotoCart;
+	//adding a comment here 
 
 	public void waitForElementToAppear(By FindBy) {
 
