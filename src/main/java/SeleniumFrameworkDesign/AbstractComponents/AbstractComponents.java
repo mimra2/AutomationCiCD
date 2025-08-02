@@ -22,6 +22,7 @@ public class AbstractComponents {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		//new line
+		//adding a new line 
 	}
 
 	@FindBy(xpath = "//button[@routerlink='/dashboard/cart']")
